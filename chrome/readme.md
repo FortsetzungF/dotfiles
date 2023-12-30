@@ -12,3 +12,7 @@
 6. restart Firefox
 
 for more infomation see [r/FirefoxCSS](https://reddit.com/r/FirefoxCSS)
+
+## Important
+
+for this userChrome css mod to look right you need the font [Iosevka](https://typeof.net/Iosevka/) installed
