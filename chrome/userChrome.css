@@ -10,12 +10,6 @@ html#main-window {
     --lwt-sidebar-background-color: #111111 !important;
 }
 
-
-#page-action-buttons>*:not(#star-button-box),
-.urlbar-history-dropmarker {
-    opacity: 0 !important;
-}
-
 #urlbar:hover #page-action-buttons>*,
 #urlbar:hover .urlbar-history-dropmarker {
     opacity: 1 !important;
@@ -54,10 +48,6 @@ menupopup {
 #navigator-toolbox {
     --tabs-border-color: none !important;
     border: none !important;
-}
-
-.tab-background[selected=true] {
-  color: #111111 !important;
 }
 
 #sidebar-search-container {
@@ -107,4 +97,24 @@ browser[type="content"] > html {
 #webext-panels-stack,
 #webext-panels-browser {
     background: #111 !important;
+}
+
+
+/* make tablist black and active tab #111111 */
+#TabsToolbar {
+    background: black !important;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon, .tab-background:is([selected], [multiselected]) {
+    background: #111 !important;
+}
+
+
+/* make add-on symbols grayscale when not hovered*/
+.chromeclass-toolbar-additional {
+    filter: grayscale(100%);
+}
+
+.chromeclass-toolbar-additional:hover {
+    filter: grayscale(0%);
 }
