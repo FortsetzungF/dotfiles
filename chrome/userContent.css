@@ -1,0 +1,10 @@
+:root {
+    --newtab-background-color: #111111 !important;
+    --newtab-background-color-secondary: #272727 !important;
+}
+
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    body {
+        font-family: 'Iosevka', monospace !important;
+    }
+}
