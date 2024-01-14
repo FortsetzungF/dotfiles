@@ -3,7 +3,7 @@
     --newtab-background-color-secondary: #272727 !important;
 }
 
-@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+@-moz-document url-prefix(about:home), url-prefix(about:newtab), url-prefix(about:privatebrowsing) {
     body {
         font-family: 'Iosevka', monospace !important;
     }
